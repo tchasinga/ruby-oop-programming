@@ -4,9 +4,9 @@ require_relative 'student'
 require_relative 'teacher'
 
 # Create instances of the classes
-person = Person.new(1, "Alice", 20)
-student = Student.new(2, "Class A")
-teacher = Teacher.new(3, "Math")
+person = Person.new(1, 'Alice', 20)
+student = Student.new(2, 'Class A')
+teacher = Teacher.new(3, 'Math')
 
 # Use the methods and properties of the objects
 puts "Person can use services: #{person.can_use_services?}"

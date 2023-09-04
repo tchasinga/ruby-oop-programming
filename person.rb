@@ -1,10 +1,9 @@
 # person.rb
 
 class Person
-  attr_reader :id, :name, :age
-  attr_writer :name, :age
+  attr_accessor :id, :name, :age
 
-  def initialize(id, name = "Unknown", age = 0, parent_permission = true)
+  def initialize(id, name: 'Unknown', age: 0, parent_permission: true)
     @id = id
     @name = name
     @age = age
